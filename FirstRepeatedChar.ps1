@@ -2,10 +2,7 @@
 .SYNOPSIS
 Find-FirstRepeatedChar will return the first recurring character in a long string parameter.
 .DESCRIPTION
-This is a PowerShell function that will take a string and find the first recurring character in that string.  It ignores case and
-spaces and will return this character in lower case irregardless of the original case of that character.  This function can also
-be used in a Pipeline where the value from one PowerShell command that returns a string can be piped into this function to return
-the first recurring character.
+This is a PowerShell function that will take a string and find the first recurring character in that string.  It ignores case and spaces and will return this character in lower case irregardless of the original case of that character.  This function can also be used in a Pipeline where the value from one PowerShell command that returns a string can be piped into this function to return the first recurring character.
 .PARAMETER Text
 The Text parameter is a string of characters that you are required to pass in that you want to find the first recurring character for.
 .EXAMPLE
@@ -55,8 +52,8 @@ function Find-FirstRepeatedChar
 # SIG # Begin signature block
 # MIITrgYJKoZIhvcNAQcCoIITnzCCE5sCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUWT6lxtuCVt8+i0JtFnOqyvMA
-# +IGgghDlMIIFYzCCBEugAwIBAgIRAJReytl1LTy8gY4UTQ917v4wDQYJKoZIhvcN
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUIyTpQpZ9XQ2/QmCnq0bCGUcM
+# SUSgghDlMIIFYzCCBEugAwIBAgIRAJReytl1LTy8gY4UTQ917v4wDQYJKoZIhvcN
 # AQELBQAwfDELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3Rl
 # cjEQMA4GA1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMSQw
 # IgYDVQQDExtTZWN0aWdvIFJTQSBDb2RlIFNpZ25pbmcgQ0EwHhcNMjAwODA3MDAw
@@ -151,12 +148,12 @@ function Find-FirstRepeatedChar
 # Ew9TZWN0aWdvIExpbWl0ZWQxJDAiBgNVBAMTG1NlY3RpZ28gUlNBIENvZGUgU2ln
 # bmluZyBDQQIRAJReytl1LTy8gY4UTQ917v4wCQYFKw4DAhoFAKB4MBgGCisGAQQB
 # gjcCAQwxCjAIoAKAAKECgAAwGQYJKoZIhvcNAQkDMQwGCisGAQQBgjcCAQQwHAYK
-# KwYBBAGCNwIBCzEOMAwGCisGAQQBgjcCARUwIwYJKoZIhvcNAQkEMRYEFEzt0GY0
-# e5JVqUDTbJKILD3xekLtMA0GCSqGSIb3DQEBAQUABIIBAG4E7GK8l4IwQ5tidLhb
-# iViyPVds0p9+eduwRsaEwUkBUnqnopSi9mb5ERQcpy2Kx+QBtcPqKdmGOhhmNFkV
-# 7mSV6d/rpLcARrhbKquG+1+RRsqPLUsTmv+W6TOubs26JHMg7bJNp1t2XAB3W1a7
-# Aw9wNaOs0jDBHgHuRVB46Fy2vq+n1zU5I2iEs5fHz6kOcWzx1Svgp1CnGg4+sDK5
-# 9tuuqol3DtspVs9nicFcV6V9zQgrQEBuJAw9ZzAB504epUYMw1jazjDbi25fnp1X
-# Lmvvyw0FinbtvRS9jJDDMxaGjDpywgaiUxVv72E4Gpq73cREZvYD4vv8omo4i1sf
-# GOM=
+# KwYBBAGCNwIBCzEOMAwGCisGAQQBgjcCARUwIwYJKoZIhvcNAQkEMRYEFOAK/DEQ
+# sZp3AEILTTsoUzEY2d1kMA0GCSqGSIb3DQEBAQUABIIBAEHnVt9gR4JXVAZr1i40
+# ByDkx+8wSpWqhVogU1YCyrpgozM8OCArJuE0c1Nl514Ypf4ySZjwox0LQHeJFAP7
+# Z+yuvnSjM23ZX4Qa3e2cU/t44MfcgadA5M48YOMeGf0WoqdVktAMMQpA+Jm9KX8p
+# CEXwVHefnSzY4QnWXdEgkgZcYJ0tkUPmiQRpF6K8VmEE0kUA274Gw/BOw/GvxHt/
+# xkm6oA9dV2MI32N2ikehtVxaHsNkVyy97LCWP2mvrGc8jJ5EQ0Z5BZoHUl92aNxx
+# klNRIArDEQYYs9ez0f7b/ftxJA9/UK+B+7CCN9LKJ7cBFrrgSSwe28XKXjQJRYEd
+# 9MY=
 # SIG # End signature block
